@@ -1,0 +1,106 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+.buddy{
+  text-align: center;
+  font-size: 40px;
+
+}
+.footer{
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  padding:40px;
+  background: linear-gradient(to right, #434343, #000000);
+}
+.footer a{
+  text-decoration: none;
+  color:white;
+  padding: 10px;
+}
+
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray m !important; 
+}
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.btn-primary {
+  background-color: #9d8641;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #453f2a;
+}
+
+.content{
+  height: 110vh;
+}
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;  
+}
+.register-page .ant-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/*transaction page*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+/*antd icons*/
+
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: gray;
+}
